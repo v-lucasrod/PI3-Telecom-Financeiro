@@ -1,0 +1,26 @@
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Dados
+data/raw/*
+data/processed/*
+data/exports/*
+
+# Logs
+logs/
+
+# Streamlit cache
+.streamlit/
+
+# PyCharm
+.idea/
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
