@@ -1,2 +1,30 @@
-# PI3-Telecom-Financeiro
- Projeto Integrador III desenvolvido para o curso de Tecnologia em Ciência de Dados da Fatec Cotia. O projeto tem como objetivo realizar a extração, tratamento, análise e visualização de dados financeiros de operadoras regionais de telecomunicações listadas na CVM, com foco nas empresas Brisanet, Unifique e Desktop.
+# Projeto Integrador III
+
+Análise financeira de operadoras regionais de telecomunicações utilizando dados públicos da CVM.
+
+## Empresas analisadas
+
+- Brisanet
+- Unifique
+- Desktop
+
+## Tecnologias
+
+- Python
+- Pandas
+- SQLite
+- Streamlit
+- Plotly
+- GitHub
+
+## Arquitetura
+
+CVM
+↓
+ETL Python
+↓
+SQLite
+↓
+Indicadores Financeiros
+↓
+Dashboard Streamlit
